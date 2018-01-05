@@ -6,6 +6,28 @@ public class SolarPanelSimulatorController {
     }
     
     @AuraEnabled
+    public static List<String> getEventFields(String eventName) {
+        System.debug('Event name ' + eventName);
+        eventName = eventName.left(eventName.length()-3);
+     
+        
+        List<FieldDefinition> fieldList = [Select DeveloperName, DataType, FieldDefinition.Publisher.isSalesforce From FieldDefinition where EntityDefinition.DeveloperName=: eventName ];
+        System.debug(fieldList);
+        
+        List<String> fieldNames = new List<String>();
+        for(FieldDefinition item: fieldList) {
+            String name = item.DeveloperName ;
+            Boolean isSalesforce =  item.Publisher.IsSalesforce;
+            
+            if(!isSalesforce && !item.DataType.contains('Lookup')) {
+                fieldNames.add(name);
+            }
+        }
+        
+        return fieldNames;
+    }
+
+    @AuraEnabled
     public static String sendEvent(
         String serialNumber,
         String errorCode,

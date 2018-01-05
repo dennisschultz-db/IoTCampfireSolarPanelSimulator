@@ -9,6 +9,14 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
+            <componentInstanceProperties>
+                <name>deviceId</name>
+                <value>serial_no__c</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>eventName</name>
+                <value>Tracker_Event__e</value>
+            </componentInstanceProperties>
             <componentName>SolarPanelSimulator</componentName>
         </componentInstances>
         <name>region2</name>

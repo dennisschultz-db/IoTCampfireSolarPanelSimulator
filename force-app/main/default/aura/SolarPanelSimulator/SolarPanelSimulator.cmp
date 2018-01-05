@@ -1,9 +1,10 @@
 <aura:component implements="flexipage:availableForAllPageTypes" access="global" controller="SolarPanelSimulatorController">
     
+    <aura:attribute name="deviceId" type="String" default="serial_no__c"/>
     <aura:attribute name="eventName" type="String" />
-
+    
     <aura:handler event="c.SolarPanelAssetSelected" action="{!c.onSolarPanelAssetSelected}"/>
-
+    
     <ltng:require scripts="{!$Resource.cometdjs}" afterScriptsLoaded="{!c.onCometdLoaded}" />
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     
@@ -12,33 +13,32 @@
     <aura:attribute name="cometdSubscriptions" type="Object[]" />
     
     <aura:attribute name="serialNumber" type="String" />
+    <aura:attribute name="objectFields" type="String[]" />
     
     <lightning:card iconName="custom:custom3" title="Cirrus Solar Panel Simulator">
         <div class="slds-grid slds-wrap">
             
             <div class="slds-form slds-form_stacked slds-size_1-of-4 slds-p-around_medium">
-                <div class="slds-form-element">
-                    <ui:outputText value="{!v.serialNumber}"/> 
-                </div>
-                
-                <div class="slds-form-element">
-                    <lightning:input aura:id="errorCode" name="errorCode" label="Error Code" value="0" />
-                </div>
-                <div class="slds-form-element">
-                    <lightning:input aura:id="model" name="model" label="Model" value="XP 300"/>
-                </div>
-                <div class="slds-form-element">
-                    <lightning:input type="number" aura:id="powerOutput" name="powerOutput" label="Power Output (W)" min="0" max="3000" value="2500"/>
-                </div>
-                <div class="slds-form-element">
-                    <lightning:input type="number" aura:id="rotationX" name="rotationX" label="Rotation X (degrees)" min="0" max="360" value="260"/>
-                </div>
-                <div class="slds-form-element">
-                    <lightning:input type="number" aura:id="rotationZ" name="rotationZ" label="Rotation Z (degrees)" min="0" max="90" value="35"/>
-                </div>
-                <div class="slds-form-element">
-                    <lightning:input aura:id="series" name="series" label="Series" value="Series 1"/>    
-                </div>  
+                <ul>
+                    <li class="slds-form-element slds-hint-parent slds-border_bottom">
+                        <div class="slds-form-element">
+                            <label class="slds-form-element__label" for="text-input-id-1">{!v.deviceId}</label>
+                            <div class="slds-form-element">
+                                <input readonly="true" value="{!v.serialNumber}"/>
+                            </div>
+                        </div>
+                    </li>       
+                    <aura:iteration var="item" items="{!v.objectFields}" indexVar="indx">
+                        <li class="slds-form-element slds-hint-parent slds-border_bottom">
+                            <div class="slds-form-element">
+                                <label class="slds-form-element__label" for="text-input-id-1">{!item}</label>
+                                <div class="slds-form-element__control">
+                                    <input type="text" id="{!item}" class="slds-input" />
+                                </div>
+                            </div>
+                        </li>       
+                    </aura:iteration>
+                </ul>
                 
                 <div class="slds-form-element">
                     <lightning:button variant="brand" aura:id="button" class="slds-float--right" label="Send" iconName="utility:right" iconPosition="left" onclick="{!c.onSendButtonClicked}" />
@@ -49,11 +49,7 @@
             </img>
             
         </div>
-        
-        
-        
-        
-        
+
     </lightning:card>
     
     
