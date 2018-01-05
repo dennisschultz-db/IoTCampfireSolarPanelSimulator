@@ -9,7 +9,8 @@
             "SerialNumber": "SN001",
             "External_ID__c": "SN001",
             "Product_Category__c": "Solar Panel",
-            "AccountId": "@AccountRef1"
+            "AccountId": "@AccountRef1",
+            "ContactId": "@ContactRef1"
         },
         {
             "attributes": {
@@ -20,7 +21,8 @@
             "SerialNumber": "SN002",
             "External_ID__c": "SN002",
             "Product_Category__c": "Solar Panel",
-            "AccountId": "@AccountRef1"
+            "AccountId": "@AccountRef1",
+            "ContactId": "@ContactRef1"
         }
     ]
 }
