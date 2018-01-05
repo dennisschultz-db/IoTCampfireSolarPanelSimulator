@@ -31,14 +31,14 @@
     [
         "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default",
         {
-            "state": "u",
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default",
             "isDirectory": true,
+            "size": 442,
+            "modifiedTime": 1515125492000,
+            "changeTime": 1515125492000,
+            "contentHash": "04663a1b8abf0954557df09414212bbeb7a07820",
             "isMetadataFile": false,
-            "size": 374,
-            "modifiedTime": 1515119553000,
-            "changeTime": 1515119553000,
-            "contentHash": "4fd33563327da9df5dc7aac56432fd7a3105f1d2"
+            "state": "u"
         }
     ],
     [
@@ -46,10 +46,10 @@
         {
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura",
             "isDirectory": true,
-            "size": 170,
-            "modifiedTime": 1515117314000,
-            "changeTime": 1515117314000,
-            "contentHash": "ed0c44b675fc678ac24b7ff18a48435da78393c5",
+            "size": 238,
+            "modifiedTime": 1515188701000,
+            "changeTime": 1515188701000,
+            "contentHash": "75b6a3722c76202db52b24ac13551127ca400248",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -60,10 +60,10 @@
         {
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator",
             "isDirectory": true,
-            "size": 340,
-            "modifiedTime": 1515092720000,
-            "changeTime": 1515092720000,
-            "contentHash": "571def718bbd34f5b7fca6a121e61e505a9c2d15",
+            "size": 374,
+            "modifiedTime": 1515165777000,
+            "changeTime": 1515165777000,
+            "contentHash": "e099dd0f9d979afa7ef3fa585efb74f707ddfaf0",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": true
@@ -74,10 +74,10 @@
         {
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelSimulator",
             "isDirectory": true,
-            "size": 272,
-            "modifiedTime": 1515109931000,
-            "changeTime": 1515015952000,
-            "contentHash": "e833a99a1165af58dee0578624be0f00623a5573",
+            "size": 306,
+            "modifiedTime": 1515179952000,
+            "changeTime": 1515179952000,
+            "contentHash": "313cec853c7cffc61b65179d19ea78ce0bb8da2c",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -85,14 +85,14 @@
     [
         "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelSimulator/SolarPanelSimulator.cmp",
         {
+            "state": "u",
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelSimulator/SolarPanelSimulator.cmp",
             "isDirectory": false,
-            "size": 3103,
-            "modifiedTime": 1515109931000,
-            "changeTime": 1515109931000,
-            "contentHash": "8a7deda3f12610310453f19f5105c8b31ca9c290",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 2799,
+            "modifiedTime": 1515191915000,
+            "changeTime": 1515191915000,
+            "contentHash": "db152a39028c0020c988ceb1c7a9fcbe5afeea40"
         }
     ],
     [
@@ -124,27 +124,27 @@
     [
         "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelSimulator/SolarPanelSimulatorController.js",
         {
+            "state": "u",
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelSimulator/SolarPanelSimulatorController.js",
             "isDirectory": false,
-            "size": 808,
-            "modifiedTime": 1515094083000,
-            "changeTime": 1515094083000,
-            "contentHash": "753de48d9c95077165a0e3bd35d37c104fa00937",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 947,
+            "modifiedTime": 1515191938000,
+            "changeTime": 1515191938000,
+            "contentHash": "547274bc792c5f4beaf746d53083b321c67b0cbd"
         }
     ],
     [
         "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelSimulator/SolarPanelSimulatorHelper.js",
         {
+            "state": "u",
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelSimulator/SolarPanelSimulatorHelper.js",
             "isDirectory": false,
-            "size": 4731,
-            "modifiedTime": 1515104402000,
-            "changeTime": 1515104402000,
-            "contentHash": "37b71a4ed6caff581e953ea7d9964b802b76850a",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 4417,
+            "modifiedTime": 1515192621000,
+            "changeTime": 1515192621000,
+            "contentHash": "2a14a12432ea361cd053c62f6bdee18156de548f"
         }
     ],
     [
@@ -187,32 +187,6 @@
         }
     ],
     [
-        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/tabs/Solar_Panel_Simulator.tab-meta.xml",
-        {
-            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/tabs/Solar_Panel_Simulator.tab-meta.xml",
-            "isDirectory": false,
-            "size": 413,
-            "modifiedTime": 1515020160000,
-            "changeTime": 1515020160000,
-            "contentHash": "f08f053653b2ed305e3e9390da3250b07d20643b",
-            "isMetadataFile": true,
-            "state": "u"
-        }
-    ],
-    [
-        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/profiles/Admin.profile-meta.xml",
-        {
-            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/profiles/Admin.profile-meta.xml",
-            "isDirectory": false,
-            "size": 17659,
-            "modifiedTime": 1515119191000,
-            "changeTime": 1515119191000,
-            "contentHash": "06ba1db007cee3f6651c821e97d73eb90ea7564b",
-            "isMetadataFile": true,
-            "state": "u"
-        }
-    ],
-    [
         "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources",
         {
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources",
@@ -230,10 +204,10 @@
         {
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/tabs",
             "isDirectory": true,
-            "size": 136,
-            "modifiedTime": 1515119191000,
-            "changeTime": 1515119191000,
-            "contentHash": "39a3e5c648bd03a95d1fa9be26579b020d91c416",
+            "size": 102,
+            "modifiedTime": 1515181412000,
+            "changeTime": 1515181412000,
+            "contentHash": "4559f89f43267111ccffce6f2575352628730379",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -244,8 +218,8 @@
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/profiles",
             "isDirectory": true,
             "size": 102,
-            "modifiedTime": 1515083091000,
-            "changeTime": 1515083091000,
+            "modifiedTime": 1515181412000,
+            "changeTime": 1515181412000,
             "contentHash": "dd4bc5d00d5b87ac9dcfa94ec543d354d095c25c",
             "isMetadataFile": false,
             "state": "u"
@@ -293,14 +267,14 @@
     [
         "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/SolarPanelSimulatorController.cls",
         {
+            "state": "u",
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/SolarPanelSimulatorController.cls",
             "isDirectory": false,
-            "size": 1687,
-            "modifiedTime": 1515105128000,
-            "changeTime": 1515105128000,
-            "contentHash": "0bda3cc3afa78b5d94a5a2eb1a8cc17a66ea4821",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 1687,
+            "modifiedTime": 1515192618000,
+            "changeTime": 1515192618000,
+            "contentHash": "cb452f2fabc7656de7ef88bd7ad9c6365ba9f794"
         }
     ],
     [
@@ -334,10 +308,10 @@
         {
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
             "isDirectory": false,
-            "size": 10055,
-            "modifiedTime": 1515090042000,
-            "changeTime": 1515090042000,
-            "contentHash": "06c752a7c73520b5623f4f7dc1330a6700635714",
+            "size": 9925,
+            "modifiedTime": 1515165692000,
+            "changeTime": 1515165692000,
+            "contentHash": "1034b8a3b1ac3ffe5432b5efd83acd8036d6dda9",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -347,10 +321,10 @@
         {
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/layouts/Contact-Contact Layout.layout-meta.xml",
             "isDirectory": false,
-            "size": 10055,
-            "modifiedTime": 1515090042000,
-            "changeTime": 1515090042000,
-            "contentHash": "13db1e86d7c89ac99de55e49f778f396466b94ae",
+            "size": 9925,
+            "modifiedTime": 1515165716000,
+            "changeTime": 1515165716000,
+            "contentHash": "4461641d521d67bbcc9dfb652167dd2aca083791",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -386,10 +360,10 @@
         {
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/applications/Cirrus_Solar.app-meta.xml",
             "isDirectory": false,
-            "size": 552,
-            "modifiedTime": 1515119191000,
-            "changeTime": 1515119191000,
-            "contentHash": "7eb793ec60d08c40cb6d9d9fce5b365ba375a043",
+            "size": 521,
+            "modifiedTime": 1515181412000,
+            "changeTime": 1515181412000,
+            "contentHash": "47641f2dddab6acc1fa243d3abbc28738d6b8838",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -412,10 +386,10 @@
         {
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/flexipages",
             "isDirectory": true,
-            "size": 102,
-            "modifiedTime": 1515090042000,
-            "changeTime": 1515090042000,
-            "contentHash": "b492c108109d94fb3976d9c60b223ebaad2834e3",
+            "size": 136,
+            "modifiedTime": 1515179679000,
+            "changeTime": 1515179679000,
+            "contentHash": "9fd3947d522f5afbed0f543d81cd69c7da6a70af",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -529,10 +503,10 @@
         {
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/InverterSimulator",
             "isDirectory": true,
-            "size": 272,
-            "modifiedTime": 1515117314000,
-            "changeTime": 1515117314000,
-            "contentHash": "0ef742a6dbbd1eb9f7b64de1e2aa935947b51e47",
+            "size": 306,
+            "modifiedTime": 1515180773000,
+            "changeTime": 1515180773000,
+            "contentHash": "f31581eb852fa5c63e00f7a9cab7a6454522961a",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -540,14 +514,14 @@
     [
         "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/InverterSimulator/InverterSimulator.cmp",
         {
+            "state": "u",
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/InverterSimulator/InverterSimulator.cmp",
             "isDirectory": false,
-            "size": 2871,
-            "modifiedTime": 1515119448000,
-            "changeTime": 1515119448000,
-            "contentHash": "ccb6874bfa0c2e21b694d3adf8968c224a4847a9",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 2574,
+            "modifiedTime": 1515191968000,
+            "changeTime": 1515191968000,
+            "contentHash": "d162173af57e244ca4f65cf68c663f0a0f153cf7"
         }
     ],
     [
@@ -579,27 +553,27 @@
     [
         "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/InverterSimulator/InverterSimulatorController.js",
         {
+            "state": "u",
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/InverterSimulator/InverterSimulatorController.js",
             "isDirectory": false,
-            "size": 808,
-            "modifiedTime": 1515117671000,
-            "changeTime": 1515117671000,
-            "contentHash": "753de48d9c95077165a0e3bd35d37c104fa00937",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 955,
+            "modifiedTime": 1515191982000,
+            "changeTime": 1515191982000,
+            "contentHash": "d4435af89ba83b5a40707b38c07d36e529bd9c5f"
         }
     ],
     [
         "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/InverterSimulator/InverterSimulatorHelper.js",
         {
+            "state": "u",
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/InverterSimulator/InverterSimulatorHelper.js",
             "isDirectory": false,
-            "size": 4590,
-            "modifiedTime": 1515117964000,
-            "changeTime": 1515117964000,
-            "contentHash": "b60a8ddbf4e13fc309f92a54b1a261996f287f02",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 4285,
+            "modifiedTime": 1515191990000,
+            "changeTime": 1515191990000,
+            "contentHash": "b8641bcb2c83dc70c8bd588c0876f1ba33476aeb"
         }
     ],
     [
@@ -668,81 +642,302 @@
         }
     ],
     [
-        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/tabs/Power_Inverter_Simulator.tab-meta.xml",
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/triggers",
         {
-            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/tabs/Power_Inverter_Simulator.tab-meta.xml",
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/triggers",
+            "isDirectory": true,
+            "size": 68,
+            "modifiedTime": 1515122295000,
+            "changeTime": 1515122295000,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/flexipages/Cirrus_Solar_Device_Simulators.flexipage-meta.xml",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/flexipages/Cirrus_Solar_Device_Simulators.flexipage-meta.xml",
             "isDirectory": false,
-            "size": 283,
-            "modifiedTime": 1515119191000,
-            "changeTime": 1515119191000,
-            "contentHash": "2f42b52eac0b6defe27c1c3ac17c70bf77d3ccdd",
+            "size": 983,
+            "modifiedTime": 1515181412000,
+            "changeTime": 1515181412000,
+            "contentHash": "858a4f70cd5e4f41750250154cd448ee55cf662f",
             "isMetadataFile": true,
             "state": "u"
         }
     ],
     [
-        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/triggers/InverterEventTrigger.trigger-meta.xml",
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/objects",
         {
-            "state": "u",
-            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/triggers/InverterEventTrigger.trigger-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 178,
-            "modifiedTime": 1515119553000,
-            "changeTime": 1515119553000,
-            "contentHash": "f4fa2f66f8bb3776185595bdb1839ef7e913cd99"
-        }
-    ],
-    [
-        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/triggers/InverterEventTrigger.trigger",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/triggers/InverterEventTrigger.trigger",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 372,
-            "modifiedTime": 1515119553000,
-            "changeTime": 1515119553000,
-            "contentHash": "8f59424831fb78d3783b28df12e74d75a1aedc1d"
-        }
-    ],
-    [
-        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/triggers/recordCDCEventTrigger.trigger-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/triggers/recordCDCEventTrigger.trigger-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 178,
-            "modifiedTime": 1515119553000,
-            "changeTime": 1515119553000,
-            "contentHash": "f4fa2f66f8bb3776185595bdb1839ef7e913cd99"
-        }
-    ],
-    [
-        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/triggers/recordCDCEventTrigger.trigger",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/triggers/recordCDCEventTrigger.trigger",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 364,
-            "modifiedTime": 1515119553000,
-            "changeTime": 1515119553000,
-            "contentHash": "209360bbf6f60397e26385c94bb8f0acffc9eccb"
-        }
-    ],
-    [
-        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/triggers",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/triggers",
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/objects",
             "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1515125093000,
+            "changeTime": 1515125093000,
+            "contentHash": "4426afd90a77a35fb37ebd7110b9989cf7bed224",
             "isMetadataFile": false,
-            "size": 204,
-            "modifiedTime": 1515119553000,
-            "changeTime": 1515119553000,
-            "contentHash": "2eaf955c0f189b26e886b8c0dd3853971aa75e91"
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/objects/Asset",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/objects/Asset",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1515125093000,
+            "changeTime": 1515125093000,
+            "contentHash": "1003ed7ace0a22575202c755ad5f988148ca2df5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/objects/Asset/listViews",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/objects/Asset/listViews",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1515125093000,
+            "changeTime": 1515125093000,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/permissionsets",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/permissionsets",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1515125492000,
+            "changeTime": 1515125492000,
+            "contentHash": "230c36769dbab5890e48a8d2cc0c5fc4b3bacc02",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/objects/Asset/listViews/All.listView-meta.xml",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/objects/Asset/listViews/All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 385,
+            "modifiedTime": 1515125093000,
+            "changeTime": 1515125093000,
+            "contentHash": "b75ac65848bb4cdfc2db68c6ba07b06ea53b9a49",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/permissionsets/IoT_Simulator.permissionset-meta.xml",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/permissionsets/IoT_Simulator.permissionset-meta.xml",
+            "isDirectory": false,
+            "size": 3826,
+            "modifiedTime": 1515180303000,
+            "changeTime": 1515180303000,
+            "contentHash": "849c0ccdfd57e0e01c6ac8f7ef542252786401c2",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelSimulator/SolarPanelSimulator.design",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelSimulator/SolarPanelSimulator.design",
+            "isDirectory": false,
+            "size": 214,
+            "modifiedTime": 1515180784000,
+            "changeTime": 1515180784000,
+            "contentHash": "9791dece1018b5e02cc0a92b838509f48bbbef02",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/InverterSimulator/InverterSimulator.design",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/InverterSimulator/InverterSimulator.design",
+            "isDirectory": false,
+            "size": 217,
+            "modifiedTime": 1515180800000,
+            "changeTime": 1515180800000,
+            "contentHash": "a84239187523b5bc6e24bdb83ec73f777da55316",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector",
+            "isDirectory": true,
+            "size": 306,
+            "modifiedTime": 1515191338000,
+            "changeTime": 1515181046000,
+            "contentHash": "52533315b0b767cf5b1cf531b1bc1d0b49573db4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelector.cmp",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelector.cmp",
+            "isDirectory": false,
+            "size": 1320,
+            "modifiedTime": 1515191338000,
+            "changeTime": 1515191338000,
+            "contentHash": "c09c5f10c948b9a4a3a87f60b7f5c5bc68b62db6",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelector.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelector.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1515191338000,
+            "changeTime": 1515191338000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelector.css",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelector.css",
+            "isDirectory": false,
+            "size": 9,
+            "modifiedTime": 1515191338000,
+            "changeTime": 1515191338000,
+            "contentHash": "690dd1ee4df0575d78499135bec93071e468c5a4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelector.design",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelector.design",
+            "isDirectory": false,
+            "size": 73,
+            "modifiedTime": 1515181062000,
+            "changeTime": 1515181062000,
+            "contentHash": "4fb93118519bf683e52d49f5ca5067825ae97860",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelectorController.js",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelectorController.js",
+            "isDirectory": false,
+            "size": 250,
+            "modifiedTime": 1515191338000,
+            "changeTime": 1515191338000,
+            "contentHash": "0c716af25dfc493c15a57820825e880883f9fe86",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelectorHelper.js",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelectorHelper.js",
+            "isDirectory": false,
+            "size": 1395,
+            "modifiedTime": 1515191338000,
+            "changeTime": 1515191338000,
+            "contentHash": "d155ad4ba4c11aa48f171e2bba929c1f9c2ff2ad",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelectorRenderer.js",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelector/SolarPanelAssetSelectorRenderer.js",
+            "isDirectory": false,
+            "size": 49,
+            "modifiedTime": 1515191338000,
+            "changeTime": 1515191338000,
+            "contentHash": "5c9d3500f47ee794776fbf674e09fad5e0855732",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/tabs/Cirrus_Solar_Device_Simulators.tab-meta.xml",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/tabs/Cirrus_Solar_Device_Simulators.tab-meta.xml",
+            "isDirectory": false,
+            "size": 355,
+            "modifiedTime": 1515181412000,
+            "changeTime": 1515181412000,
+            "contentHash": "f1658cc9b9a5a7267445da75b988e462a4a3e912",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/profiles/Admin.profile-meta.xml",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/profiles/Admin.profile-meta.xml",
+            "isDirectory": false,
+            "size": 17665,
+            "modifiedTime": 1515181412000,
+            "changeTime": 1515181412000,
+            "contentHash": "8b29dfe88ece0848454808003b67b3ee40d6e5d5",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelected",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelected",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1515188701000,
+            "changeTime": 1515188701000,
+            "contentHash": "b1cefd8ad27d561b609df7397fd35199327db6e8",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelected/SolarPanelAssetSelected.evt",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelected/SolarPanelAssetSelected.evt",
+            "isDirectory": false,
+            "size": 164,
+            "modifiedTime": 1515190660000,
+            "changeTime": 1515190660000,
+            "contentHash": "9887682fe0efc2b1243fc19a26099f08f9fd6be7",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelected/SolarPanelAssetSelected.evt-meta.xml",
+        {
+            "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelAssetSelected/SolarPanelAssetSelected.evt-meta.xml",
+            "isDirectory": false,
+            "size": 251,
+            "modifiedTime": 1515188701000,
+            "changeTime": 1515188701000,
+            "contentHash": "c5b974f646c732f4b569c7d926cccf15f46b21b6",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]

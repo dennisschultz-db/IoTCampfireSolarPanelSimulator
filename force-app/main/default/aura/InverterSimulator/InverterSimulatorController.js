@@ -17,14 +17,17 @@
         helper.addCometdDisconnectListener(component);
         
         helper.retrieveSessionId(component);
-
-        helper.retrieveSolarPanels(component);
-
     },
     
     
-    onButton1Click : function(component, event, helper) {
+    onSolarPanelAssetSelected : function(component, event, helper) {
+        console.log('onSolarPanelAssetSelected');
+        helper.onSolarPanelAssetSelected(component, event);
+    },
+    
+    
+    onSendButtonClicked : function(component, event, helper) {
         console.log('onButton1Click');
-        helper.onButton1Click(component);
+        helper.sendEvent(component);
     }
 })

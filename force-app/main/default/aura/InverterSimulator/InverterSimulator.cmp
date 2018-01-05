@@ -1,4 +1,8 @@
-<aura:component implements="force:appHostable" controller="InverterSimulatorController">
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" controller="InverterSimulatorController">
+        
+        <aura:attribute name="eventName" type="String" />
+        
+        <aura:handler event="c.SolarPanelAssetSelected" action="{!c.onSolarPanelAssetSelected}"/>
         
         <ltng:require scripts="{!$Resource.cometdjs}" afterScriptsLoaded="{!c.onCometdLoaded}" />
         <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
@@ -7,19 +11,14 @@
         <aura:attribute name="cometd" type="Object" />
         <aura:attribute name="cometdSubscriptions" type="Object[]" />
         
-        <aura:attribute name="solarPanels" type="Asset[]" />
+       <aura:attribute name="serialNumber" type="String" />
         
         <lightning:card iconName="custom:custom3" title="Power Inverter Simulator">
             <div class="slds-grid slds-wrap">
                 
                 <div class="slds-form slds-form_stacked slds-size_1-of-4 slds-p-around_medium">
                     <div class="slds-form-element">
-                        <lightning:select aura:id="solarPanelSelect" name="solarPanelSelect" label="Select Solar Panel to Simulate" required="true" messageWhenValueMissing="Did you forget to select a Solar Panel?">
-                            <option value="">-- None --</option>
-                            <aura:iteration items="{!v.solarPanels}" var="solarPanel">
-                                <option value="{!solarPanel.External_ID__c}" text="{!solarPanel.External_ID__c}"></option>
-                            </aura:iteration>
-                        </lightning:select>
+                            <ui:outputText value="{!v.serialNumber}"/> 
                     </div>
                     
                     <div class="slds-form-element">
@@ -36,7 +35,7 @@
                     </div>  
                     
                     <div class="slds-form-element">
-                        <lightning:button variant="brand" aura:id="button" class="slds-float--right" label="Send" iconName="utility:right" iconPosition="left" onclick="{!c.onButton1Click}" />
+                        <lightning:button variant="brand" aura:id="button" class="slds-float--right" label="Send" iconName="utility:right" iconPosition="left" onclick="{!c.onSendButtonClicked}" />
                     </div>
                 </div>
                 

@@ -1,0 +1,26 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" controller="SolarPanelSimulatorController">
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <aura:registerEvent name="solarPanelSelectedEvent" type="c:SolarPanelAssetSelected" />
+
+    <aura:attribute name="solarPanels" type="Asset[]" />
+
+    <lightning:card iconName="custom:custom3" title="Cirrus Solar Panel Asset Selector">
+        <div class="slds-grid slds-wrap">
+
+            <div class="slds-form slds-form_stacked slds-size_4-of-4 slds-p-around_medium">
+                <div class="slds-form-element">
+                    <lightning:select aura:id="solarPanelSelect" name="solarPanelSelect" label="Select Solar Panel to Simulate" required="true"
+                        messageWhenValueMissing="Did you forget to select a Solar Panel?" onchange="{!c.onSelect}">
+                        <option value="">-- None --</option>
+                        <aura:iteration items="{!v.solarPanels}" var="solarPanel">
+                            <option value="{!solarPanel.External_ID__c}" text="{!solarPanel.External_ID__c}"></option>
+                        </aura:iteration>
+                    </lightning:select>
+                </div>
+            </div>
+        </div>
+    </lightning:card>
+
+</aura:component>

@@ -1,0 +1,3 @@
+<design:component label="Solar Panel Simulator">
+        <design:attribute name="eventName" label="Event Name" description="Name of the Platform Event that should be posted by this simulator" />
+</design:component>

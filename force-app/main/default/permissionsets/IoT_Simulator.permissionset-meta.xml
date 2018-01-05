@@ -52,11 +52,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Asset.LocationId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Asset.Price</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -115,14 +110,6 @@
         <object>Asset</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <tabSettings>
-        <tab>Power_Inverter_Simulator</tab>
-        <visibility>Visible</visibility>
-    </tabSettings>
-    <tabSettings>
-        <tab>Solar_Panel_Simulator</tab>
-        <visibility>Visible</visibility>
-    </tabSettings>
     <tabSettings>
         <tab>standard-Asset</tab>
         <visibility>Visible</visibility>

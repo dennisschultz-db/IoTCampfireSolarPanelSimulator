@@ -6,7 +6,7 @@ public class SolarPanelSimulatorController {
     }
     
     @AuraEnabled
-    public static String onButton1(
+    public static String sendEvent(
         String serialNumber,
         String errorCode,
         String model,

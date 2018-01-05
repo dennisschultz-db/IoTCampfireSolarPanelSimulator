@@ -9,8 +9,7 @@
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
     <tab>standard-Asset</tab>
-    <tab>Solar_Panel_Simulator</tab>
-    <tab>Power_Inverter_Simulator</tab>
+    <tab>Cirrus_Solar_Device_Simulators</tab>
     <uiType>Lightning</uiType>
     <utilityBar>Cirrus_Solar_UtilityBar</utilityBar>
 </CustomApplication>

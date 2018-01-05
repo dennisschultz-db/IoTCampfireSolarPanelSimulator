@@ -59,27 +59,18 @@
     },
     
     
-    retrieveSolarPanels : function(component) {
-        var action = component.get("c.fetchSolarPanels");
-        action.setCallback(this, function(response) {
-            var state = response.getState();
-            if (state === "SUCCESS") {
-                var solarPanels = response.getReturnValue();
-                component.set("v.solarPanels", solarPanels);
-            } else {
-                console.log("!!! Error fetchSolarPanels");
-            }
-        });
-        
-        $A.enqueueAction(action);  
+    onSolarPanelAssetSelected : function(component, event) {
+        var serial_number = event.getParam("SerialNumber");
+        console.log("Serial Number is " + serial_number);
+
+        component.set("v.serialNumber", serial_number);
     },
+        
     
-    
-    
-    onButton1Click : function(component) {
+    sendEvent : function(component) {
         var helper = this;
         
-        var serial_number = component.find('solarPanelSelect').get("v.value");
+        var serial_number = component.get("v.serialNumber");
         console.log("onButtonClick serial number = " + serial_number);        
         if (serial_number == "") {
             helper.showToast("error", "Missing data", "Please select a serial number");
