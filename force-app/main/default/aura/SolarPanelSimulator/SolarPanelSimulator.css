@@ -1,0 +1,12 @@
+.THIS {
+	background-color: #fff;
+}
+
+.THIS button {
+    width : 100%;
+}
+
+.THIS #app {
+    max-height : 490px;
+    object-fit : contain;
+}

@@ -1,0 +1,55 @@
+<aura:component implements="force:appHostable" controller="InverterSimulatorController">
+        
+        <ltng:require scripts="{!$Resource.cometdjs}" afterScriptsLoaded="{!c.onCometdLoaded}" />
+        <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+        
+        <aura:attribute name="sessionId" type="String" />
+        <aura:attribute name="cometd" type="Object" />
+        <aura:attribute name="cometdSubscriptions" type="Object[]" />
+        
+        <aura:attribute name="solarPanels" type="Asset[]" />
+        
+        <lightning:card iconName="custom:custom3" title="Power Inverter Simulator">
+            <div class="slds-grid slds-wrap">
+                
+                <div class="slds-form slds-form_stacked slds-size_1-of-4 slds-p-around_medium">
+                    <div class="slds-form-element">
+                        <lightning:select aura:id="solarPanelSelect" name="solarPanelSelect" label="Select Solar Panel to Simulate" required="true" messageWhenValueMissing="Did you forget to select a Solar Panel?">
+                            <option value="">-- None --</option>
+                            <aura:iteration items="{!v.solarPanels}" var="solarPanel">
+                                <option value="{!solarPanel.External_ID__c}" text="{!solarPanel.External_ID__c}"></option>
+                            </aura:iteration>
+                        </lightning:select>
+                    </div>
+                    
+                    <div class="slds-form-element">
+                        <lightning:input aura:id="errorCode" name="errorCode" label="Error Code" value="0" />
+                    </div>
+                    <div class="slds-form-element">
+                        <lightning:input aura:id="model" name="model" label="Model" value="XWPlus"/>
+                    </div>
+                    <div class="slds-form-element">
+                        <lightning:input type="number" aura:id="gridOutput" name="gridOutput" label="Grid Output (W)" min="0" max="3000" value="2500"/>
+                    </div>
+                    <div class="slds-form-element">
+                        <lightning:input aura:id="series" name="series" label="Series" value="Series 10"/>    
+                    </div>  
+                    
+                    <div class="slds-form-element">
+                        <lightning:button variant="brand" aura:id="button" class="slds-float--right" label="Send" iconName="utility:right" iconPosition="left" onclick="{!c.onButton1Click}" />
+                    </div>
+                </div>
+                
+                <img id="app" class="slds-size_3-of-4" src="{!$Resource.InverterBackground}">
+                </img>
+                
+            </div>
+            
+            
+            
+            
+            
+        </lightning:card>
+        
+        
+    </aura:component>

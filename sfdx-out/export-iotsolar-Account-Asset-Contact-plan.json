@@ -1,0 +1,26 @@
+[
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "export-iotsolar-Accounts.json"
+        ]
+    },
+    {
+        "sobject": "Asset",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "export-iotsolar-Assets.json"
+        ]
+    },
+    {
+        "sobject": "Contact",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "export-iotsolar-Contacts.json"
+        ]
+    }
+]

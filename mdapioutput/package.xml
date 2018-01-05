@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>AuraDefinitionBundle</name>
+    <members>SolarPanelSimulator</members>
+  </types>
+  <types>
+    <name>ApexClass</name>
+    <members>SolarPanelSimulatorController</members>
+  </types>
+  <types>
+    <name>StaticResource</name>
+    <members>SolarPanelBackground</members>
+    <members>cometdjs</members>
+  </types>
+  <types>
+    <name>CustomTab</name>
+    <members>Solar_Panel_Simulator</members>
+  </types>
+  <version>41.0</version>
+</Package>

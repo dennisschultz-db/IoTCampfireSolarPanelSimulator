@@ -1,0 +1,23 @@
+<aura:component implements="force:appHostable" controller="SolarPanelSimulatorController">
+
+    <ltng:require scripts="{!$Resource.cometdjs}" afterScriptsLoaded="{!c.onCometdLoaded}"/>
+  	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>     
+
+    <aura:attribute name="sessionId" type="String"/>
+    <aura:attribute name="cometd" type="Object"/>
+    <aura:attribute name="cometdSubscriptions" type="Object[]"/>
+    
+	<lightning:card iconName="custom:custom3" title="Cirrus Solar Panel Simulator">
+		<div id="app" class="myApp" style="{!'background-image : url(' + $Resource.SolarPanelBackground + ')'}" >
+			<div>Hello World</div>
+		</div>
+        <div class="control">
+            <div class="button" onclick="{!c.onButton1Click}">
+                <img id="button-1-image" src="https://s3.amazonaws.com/iotexplorerdemo-imgs/kitchen/c1.png" />
+            </div>
+        </div>
+
+	</lightning:card>
+
+
+</aura:component>

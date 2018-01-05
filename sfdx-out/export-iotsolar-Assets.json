@@ -1,0 +1,26 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Asset",
+                "referenceId": "AssetRef1"
+            },
+            "Name": "My Solar Panel #1",
+            "SerialNumber": "SN001",
+            "External_ID__c": "SN001",
+            "Product_Category__c": "Solar Panel",
+            "AccountId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Asset",
+                "referenceId": "AssetRef2"
+            },
+            "Name": "My Solar Panel #2",
+            "SerialNumber": "SN002",
+            "External_ID__c": "SN002",
+            "Product_Category__c": "Solar Panel",
+            "AccountId": "@AccountRef1"
+        }
+    ]
+}
