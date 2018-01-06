@@ -1,6 +1,6 @@
 ({
     doInit: function (component, event, helper) {
-        console.log('SolarPanelSimulatorController: doInit');
+        console.log('IoTDeviceSimulator:Controller: doInit');
 
         component.set('v.cometdSubscriptions', []);
         component.set('v.notifications', []);
@@ -36,7 +36,7 @@
 
 
     onSendButtonClicked: function (component, event, helper) {
-        console.log('onButton1Click');
+        console.log('onSendButtonClick');
         helper.sendEvent(component);
     }
 })

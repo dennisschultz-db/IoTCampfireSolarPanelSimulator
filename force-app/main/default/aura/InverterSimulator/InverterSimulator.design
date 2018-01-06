@@ -1,3 +1,0 @@
-<design:component label="Power Inverter Simulator">
-        <design:attribute name="eventName" label="Event Name" description="Name of the Platform Event that should be published by this simulator" />
-</design:component>

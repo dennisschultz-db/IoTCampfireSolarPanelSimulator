@@ -87,10 +87,10 @@
         {
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelSimulator/SolarPanelSimulator.cmp",
             "isDirectory": false,
-            "size": 2937,
-            "modifiedTime": 1515249790000,
-            "changeTime": 1515249790000,
-            "contentHash": "e65d72dc8b682698bc4dd87072cc947019f8d1d9",
+            "size": 3092,
+            "modifiedTime": 1515250739000,
+            "changeTime": 1515250739000,
+            "contentHash": "112e0dcedf1c061563b23efee8040b4d10b13690",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -129,9 +129,9 @@
             "isDirectory": false,
             "isMetadataFile": false,
             "size": 1368,
-            "modifiedTime": 1515249872000,
-            "changeTime": 1515249872000,
-            "contentHash": "e80b26b4e45517b4e890e3aa40ff6d5bb6ddddfe"
+            "modifiedTime": 1515251631000,
+            "changeTime": 1515251631000,
+            "contentHash": "8fcfd24299eaead6b0c8fc5dc72b3c1e6190aa83"
         }
     ],
     [
@@ -657,14 +657,14 @@
     [
         "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/flexipages/Cirrus_Solar_Device_Simulators.flexipage-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/flexipages/Cirrus_Solar_Device_Simulators.flexipage-meta.xml",
             "isDirectory": false,
-            "size": 1322,
-            "modifiedTime": 1515195838000,
-            "changeTime": 1515195838000,
-            "contentHash": "c2c824d1c882671923216b214d0484a10e7c0ab4",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 1849,
+            "modifiedTime": 1515251632000,
+            "changeTime": 1515251632000,
+            "contentHash": "488dea99524b2d2dd0797d1a4a9abe803b63b139"
         }
     ],
     [
@@ -750,10 +750,10 @@
         {
             "sourcePath": "/Users/dschultz/Google Drive/Projects/sfdx/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/SolarPanelSimulator/SolarPanelSimulator.design",
             "isDirectory": false,
-            "size": 535,
-            "modifiedTime": 1515249415000,
-            "changeTime": 1515249415000,
-            "contentHash": "25e3064094d1b4c42a65f7f9efa3a8803b0c4553",
+            "size": 865,
+            "modifiedTime": 1515250782000,
+            "changeTime": 1515250782000,
+            "contentHash": "211ded0c7b0295a449a12b7967e38f8af4a92082",
             "isMetadataFile": false,
             "state": "u"
         }

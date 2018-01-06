@@ -119,16 +119,19 @@
         var objectFields = component.get("v.objectFields");
         var itemId = null;
 
-        console.log("onButtonClick serial number = " + serial_number);
+        console.log("sendEvent serial number = " + serial_number);
         if (serial_number == "") {
             helper.showToast("error", "Missing data", "Please select a serial number");
             return;
         }
 
         /***** Generate Platform Event ********/
+        // GlobalId is required to differentiate between similarly named fields on multiple
+        // simulators on the same App Page
+        var globalId = component.getGlobalId();
       	var eventMsg = "{\"sobjectType\":\"" + eventName + "\",\"" + inputKey + "\":\"" + serial_number  + "\"";	 
           for(var i=0; i< objectFields.length; i++) {
-               itemId = document.getElementById(objectFields[i]);
+               itemId = document.getElementById(globalId + objectFields[i]);
                eventMsg = eventMsg +  ",\"" + objectFields[i] + "__c\": \"" + itemId.value + "\"";  
           }
            eventMsg = eventMsg + "}";

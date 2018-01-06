@@ -1,4 +1,4 @@
-<aura:component implements="flexipage:availableForAllPageTypes" access="global" controller="SolarPanelSimulatorController">
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" controller="IoTDeviceSimulatorController">
     
     <aura:attribute name="deviceId" type="String" default="serial_no__c"/>
     <aura:attribute name="eventName" type="String" />
@@ -36,9 +36,9 @@
                     <aura:iteration var="item" items="{!v.objectFields}" indexVar="indx">
                         <li class="slds-form-element slds-hint-parent slds-border_bottom">
                             <div class="slds-form-element">
-                                <label class="slds-form-element__label" for="text-input-id-1">{!item}</label>
+                                <label class="slds-form-element__label" for="{!globalId + item}">{!item}</label>
                                 <div class="slds-form-element__control">
-                                    <input type="text" id="{!item}" class="slds-input" />
+                                    <input type="text" id="{!globalId + item}" class="slds-input" />
                                 </div>
                             </div>
                         </li>       

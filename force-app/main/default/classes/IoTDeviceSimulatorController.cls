@@ -1,4 +1,4 @@
-public class SolarPanelSimulatorController {
+public class IoTDeviceSimulatorController {
 
     @AuraEnabled
     public static String getSessionId() {

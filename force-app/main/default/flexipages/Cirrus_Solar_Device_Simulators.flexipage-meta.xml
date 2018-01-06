@@ -23,20 +23,40 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>headingText</name>
-                <value>Solar Panel Simulator</value>
+                <value>Cirrus Solar Panel Simulator</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>imageName</name>
                 <value>SolarPanelBackground</value>
             </componentInstanceProperties>
-            <componentName>SolarPanelSimulator</componentName>
+            <componentName>IoTDeviceSimulator</componentName>
         </componentInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>InverterSimulator</componentName>
+            <componentInstanceProperties>
+                <name>deviceId</name>
+                <value>serial_no__c</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>eventName</name>
+                <value>Inverter_Event__e</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>headingIcon</name>
+                <value>custom:custom9</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>headingText</name>
+                <value>Power Inverter Simulator</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>imageName</name>
+                <value>InverterBackground</value>
+            </componentInstanceProperties>
+            <componentName>IoTDeviceSimulator</componentName>
         </componentInstances>
         <name>region3</name>
         <type>Region</type>
