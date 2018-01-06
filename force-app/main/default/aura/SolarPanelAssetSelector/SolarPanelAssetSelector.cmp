@@ -9,7 +9,7 @@
     <lightning:card iconName="custom:custom3" title="Cirrus Solar Panel Asset Selector">
         <div class="slds-grid slds-wrap">
 
-            <div class="slds-form slds-form_stacked slds-size_4-of-4 slds-p-around_medium">
+            <div class="slds-form slds-form_stacked slds-size_2-of-4 slds-p-around_medium slds-align_absolute-center">
                 <div class="slds-form-element">
                     <lightning:select aura:id="solarPanelSelect" name="solarPanelSelect" label="Select Solar Panel to Simulate" required="true"
                         messageWhenValueMissing="Did you forget to select a Solar Panel?" onchange="{!c.onSelect}">
