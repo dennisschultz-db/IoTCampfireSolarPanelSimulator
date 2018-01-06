@@ -1,4 +1,7 @@
 <design:component label="Solar Panel Simulator">
-        <design:attribute name="eventName" label="Event Name" default="Tracker_Event__e" description="Name of the Platform Event that should be posted by this simulator"/>
+        <design:attribute name="eventName" label="Event Name" default="Tracker_Event__e" description="Name of the Platform Event that should be published by this simulator"/>
         <design:attribute name="deviceId" label="Device ID" default="serial_no__c" description="Name of the Platform Event field key"/>
+        <design:attribute name="imageName" label="Image Static Resource Name" description="Name of Static Resource containing the picture of the device" />
+        <design:attribute name="headingText" label="Heading Text" default="Simulated Device" description="Text used in the header of the component" />
+        <design:attribute name="headingIcon" label="Heading Icon" default="custom:custom3" description="SLDS icon descriptor for header of the component (i.e. custom:custom3)" />
 </design:component>

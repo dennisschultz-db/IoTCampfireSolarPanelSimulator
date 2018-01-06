@@ -17,6 +17,18 @@
                 <name>eventName</name>
                 <value>Tracker_Event__e</value>
             </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>headingIcon</name>
+                <value>custom:custom3</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>headingText</name>
+                <value>Solar Panel Simulator</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>imageName</name>
+                <value>SolarPanelBackground</value>
+            </componentInstanceProperties>
             <componentName>SolarPanelSimulator</componentName>
         </componentInstances>
         <name>region2</name>

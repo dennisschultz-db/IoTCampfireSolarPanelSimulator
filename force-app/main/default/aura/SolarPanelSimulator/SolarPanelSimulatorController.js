@@ -7,6 +7,9 @@
         helper.addCometdDisconnectListener(component);
         helper.retrieveSessionId(component);
 
+        var imageName = component.get("v.imageName");
+        component.set("v.imageSrc", $A.get('$Resource.' + imageName));
+
         var eventName = component.get("v.eventName");
         if (eventName == null || eventName.length == 0) { return; }
         if (!eventName.includes("__e")) {

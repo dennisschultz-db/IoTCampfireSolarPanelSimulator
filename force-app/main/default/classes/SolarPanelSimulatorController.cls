@@ -27,6 +27,36 @@ public class SolarPanelSimulatorController {
         return fieldNames;
     }
 
+
+    @AuraEnabled
+    public static String publishEvent(sObject eventValue) {
+     	System.debug('Publishing Event  ' + eventValue);
+        List<sObject> eventList = new List<sObject>();
+        eventList.add(eventValue);
+        
+       List<Database.SaveResult> results = EventBus.publish(eventList);
+        
+        // Inspect publishing results
+        Boolean failure = false;
+        for (Database.SaveResult result : results) {
+            if (!result.isSuccess()) {
+                failure = true;
+                for (Database.Error error : result.getErrors()) {
+                    System.debug('Error returned: ' +  error.getStatusCode() +' - '+  error.getMessage());
+                }
+            }
+        }
+
+        if (failure) {
+            return 'Failure';
+        } else {
+            return results[0].id;
+        }
+       
+         
+    }
+    
+
     @AuraEnabled
     public static String sendEvent(
         String serialNumber,

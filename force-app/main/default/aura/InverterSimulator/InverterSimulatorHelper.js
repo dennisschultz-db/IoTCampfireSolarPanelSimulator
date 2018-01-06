@@ -93,12 +93,12 @@
                 if (responseVal.startsWith("Success")) {
                 	helper.showToast(
                         "success", 
-                        "Event posted", 
+                        "Event published", 
                         "Inverter Event " + responseVal);
                 } else {
                 	helper.showToast(
                         "error", 
-                        "Event not posted", 
+                        "Event not published", 
                         "Inverter Event " + responseVal);                    
                 }
             } else {

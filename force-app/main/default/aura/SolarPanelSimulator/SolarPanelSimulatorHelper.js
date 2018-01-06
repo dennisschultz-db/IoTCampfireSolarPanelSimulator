@@ -104,49 +104,65 @@
         component.set("v.serialNumber", serial_number);
     },
 
+
     sendEvent: function (component) {
+        console.log("sendEvent");
+
         var helper = this;
 
+        var spinner = component.find("eventSpinner");
+        $A.util.toggleClass(spinner, "slds-show");
+
+        var inputKey = component.get("v.deviceId");  
         var serial_number = component.get("v.serialNumber");
+        var eventName = component.get("v.eventName");
+        var objectFields = component.get("v.objectFields");
+        var itemId = null;
+
         console.log("onButtonClick serial number = " + serial_number);
         if (serial_number == "") {
             helper.showToast("error", "Missing data", "Please select a serial number");
             return;
         }
 
-        var action = component.get("c.sendEvent");
+        /***** Generate Platform Event ********/
+      	var eventMsg = "{\"sobjectType\":\"" + eventName + "\",\"" + inputKey + "\":\"" + serial_number  + "\"";	 
+          for(var i=0; i< objectFields.length; i++) {
+               itemId = document.getElementById(objectFields[i]);
+               eventMsg = eventMsg +  ",\"" + objectFields[i] + "__c\": \"" + itemId.value + "\"";  
+          }
+           eventMsg = eventMsg + "}";
+  
+        console.log("Sending Event to IOT cloud");
+        console.log(eventMsg);
+      
+        var action = component.get("c.publishEvent");
         action.setParams({
-            serialNumber: serial_number,
-            errorCode: component.find('errorCode').get("v.value"),
-            model: component.find('model').get("v.value"),
-            powerOutput: component.find('powerOutput').get("v.value"),
-            rotationX: component.find('rotationX').get("v.value"),
-            rotationZ: component.find('rotationZ').get("v.value"),
-            series: component.find('series').get("v.value")
+            eventValue : eventMsg
         });
-        action.setCallback(this, function (response) {
-            var state = response.getState();
-            if (state === "SUCCESS") {
-                var responseVal = response.getReturnValue();
-                console.log("onButton1 response is " + responseVal);
-                if (responseVal.startsWith("Success")) {
-                    helper.showToast(
-                        "success",
-                        "Event posted",
-                        "Tracker Event " + responseVal);
-                } else {
-                    helper.showToast(
-                        "error",
-                        "Event not posted",
-                        "Tracker Event " + responseVal);
-                }
-            } else {
-                console.log("!!! Error onButton1");
+
+        action.setCallback(this, function(response) {
+            if (response.getState() === "SUCCESS") {
+                $A.util.toggleClass(spinner, "slds-show");
+                console.log("Sending IOT Event Success! ");
+                helper.showToast(
+                    "success",
+                    "Event published",
+                    "Tracker Event " + response.getReturnValue());
+           
+            } else if (response.getState() === "ERROR") {
+                console.log("Sending IOT Event Failed! ");
+                console.log( response.getError());
+                //$A.log("Errors", a.getError());
+                helper.showToast(
+                    "error", 
+                    "Unable to send event", 
+                    "Sending IOT Event Failed! " + response.getError());
             }
         });
 
-        $A.enqueueAction(action);
-
+       $A.enqueueAction(action);
+    
     },
 
 
