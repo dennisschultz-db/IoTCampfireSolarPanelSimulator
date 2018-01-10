@@ -8,19 +8,19 @@
         ]
     },
     {
-        "sobject": "Contact",
-        "saveRefs": true,
-        "resolveRefs": true,
-        "files": [
-            "export-iotsolar-Contacts.json"
-        ]
-    },
-    {
         "sobject": "Asset",
         "saveRefs": false,
         "resolveRefs": true,
         "files": [
             "export-iotsolar-Assets.json"
+        ]
+    },
+    {
+        "sobject": "Contact",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "export-iotsolar-Contacts.json"
         ]
     }
 ]

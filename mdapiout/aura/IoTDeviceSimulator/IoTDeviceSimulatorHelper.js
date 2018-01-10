@@ -97,14 +97,6 @@
     },
 
 
-    onSolarPanelAssetSelected: function (component, event) {
-        var serial_number = event.getParam("SerialNumber");
-        console.log("Serial Number is " + serial_number);
-
-        component.set("v.serialNumber", serial_number);
-    },
-
-
     sendEvent: function (component) {
         console.log("sendEvent");
 
@@ -113,14 +105,15 @@
         var spinner = component.find("eventSpinner");
         $A.util.toggleClass(spinner, "slds-show");
 
-        var inputKey = component.get("v.deviceId");  
-        var serial_number = component.get("v.serialNumber");
+        var globalId = component.getGlobalId();
         var eventName = component.get("v.eventName");
+        var deviceId = component.get("v.deviceId");  
+        var deviceIdValue = document.getElementById(globalId + deviceId).value;
         var objectFields = component.get("v.objectFields");
         var itemId = null;
 
-        console.log("sendEvent serial number = " + serial_number);
-        if (serial_number == "") {
+        console.log("sendEvent serial number = " + deviceIdValue);
+        if (deviceIdValue == "") {
             helper.showToast("error", "Missing data", "Please select a serial number");
             return;
         }
@@ -128,8 +121,7 @@
         /***** Generate Platform Event ********/
         // GlobalId is required to differentiate between similarly named fields on multiple
         // simulators on the same App Page
-        var globalId = component.getGlobalId();
-      	var eventMsg = "{\"sobjectType\":\"" + eventName + "\",\"" + inputKey + "\":\"" + serial_number  + "\"";	 
+      	var eventMsg = "{\"sobjectType\":\"" + eventName + "\",\"" + deviceId + "\":\"" + deviceIdValue  + "\"";	 
           for(var i=0; i< objectFields.length; i++) {
                itemId = document.getElementById(globalId + objectFields[i]);
                eventMsg = eventMsg +  ",\"" + objectFields[i] + "__c\": \"" + itemId.value + "\"";  

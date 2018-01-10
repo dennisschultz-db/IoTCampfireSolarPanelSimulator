@@ -52,19 +52,5 @@ public class IoTDeviceSimulatorController {
         } else {
             return results[0].id;
         }
-       
-         
-    }
-    
-
-
-    @AuraEnabled
-    public static List<Asset> fetchSolarPanels() {
-
-        // Perform the following query using dynamic SOQL to avoid dependence on the Product_Category__c field of the Asset object.
-        // Equivalent to List<Asset> solarPanels = [SELECT Id, Name, External_ID__c  FROM Asset WHERE Product_Category__c = 'Solar Panel'];
-
-        List<Asset> solarPanels = Database.query('SELECT Id, Name, External_ID__c  FROM Asset WHERE Product_Category__c = \'Solar Panel\'');
-        return solarPanels;
     }
 }

@@ -18,10 +18,4 @@ public class IoTDeviceSimulatorControllerTest {
         String result = IoTDeviceSimulatorController.publishEvent(contact);
         System.assert(!result.equals('Failure'));
     }
-
-    static testMethod void validate_fetchSolarPanels() {
-        List<Asset> assets = IoTDeviceSimulatorController.fetchSolarPanels();
-        System.assert(assets.size() == 0);
-    }
-
 }

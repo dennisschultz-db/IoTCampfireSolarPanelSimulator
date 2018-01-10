@@ -1,3 +1,0 @@
-<aura:event type="APPLICATION" description="Indicates user has selected a Solar Panel Asset">
-    <aura:attribute name="SerialNumber" type="String"/>
-</aura:event>

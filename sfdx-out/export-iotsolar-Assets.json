@@ -5,24 +5,36 @@
                 "type": "Asset",
                 "referenceId": "AssetRef1"
             },
-            "Name": "My Solar Panel #1",
-            "SerialNumber": "SN001",
-            "External_ID__c": "SN001",
-            "Product_Category__c": "Solar Panel",
-            "AccountId": "@AccountRef1",
-            "ContactId": "@ContactRef1"
+            "Name": "My Inverter #1",
+            "External_ID__c": "SN111",
+            "AccountId": "@AccountRef1"
         },
         {
             "attributes": {
                 "type": "Asset",
                 "referenceId": "AssetRef2"
             },
+            "Name": "My Inverter #2",
+            "External_ID__c": "SN112",
+            "AccountId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Asset",
+                "referenceId": "AssetRef3"
+            },
+            "Name": "My Solar Panel #1",
+            "External_ID__c": "SN001",
+            "AccountId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Asset",
+                "referenceId": "AssetRef4"
+            },
             "Name": "My Solar Panel #2",
-            "SerialNumber": "SN002",
             "External_ID__c": "SN002",
-            "Product_Category__c": "Solar Panel",
-            "AccountId": "@AccountRef1",
-            "ContactId": "@ContactRef1"
+            "AccountId": "@AccountRef1"
         }
     ]
 }

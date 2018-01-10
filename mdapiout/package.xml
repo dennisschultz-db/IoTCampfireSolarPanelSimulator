@@ -7,8 +7,6 @@
   <types>
     <name>AuraDefinitionBundle</name>
     <members>IoTDeviceSimulator</members>
-    <members>SolarPanelAssetSelected</members>
-    <members>SolarPanelAssetSelector</members>
   </types>
   <types>
     <name>ApexClass</name>
