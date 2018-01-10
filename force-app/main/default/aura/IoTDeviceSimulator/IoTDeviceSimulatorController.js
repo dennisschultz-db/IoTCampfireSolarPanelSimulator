@@ -29,12 +29,6 @@
     },
 
 
-    onSolarPanelAssetSelected: function (component, event, helper) {
-        console.log('onSolarPanelAssetSelected');
-        helper.onSolarPanelAssetSelected(component, event);
-    },
-
-
     onSendButtonClicked: function (component, event, helper) {
         console.log('onSendButtonClick');
         helper.sendEvent(component);

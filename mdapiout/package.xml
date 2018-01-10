@@ -13,6 +13,7 @@
   <types>
     <name>ApexClass</name>
     <members>IoTDeviceSimulatorController</members>
+    <members>IoTDeviceSimulatorControllerTest</members>
   </types>
   <types>
     <name>FlexiPage</name>

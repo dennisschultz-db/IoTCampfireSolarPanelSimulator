@@ -6,9 +6,6 @@
     <aura:attribute name="headingText" type="String" />
     <aura:attribute name="headingIcon" type="String" />
     
-    
-    <aura:handler event="c.SolarPanelAssetSelected" action="{!c.onSolarPanelAssetSelected}"/>
-    
     <ltng:require scripts="{!$Resource.cometdjs}" afterScriptsLoaded="{!c.onCometdLoaded}" />
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     
@@ -17,7 +14,6 @@
     <aura:attribute name="cometdSubscriptions" type="Object[]" />
     
     <aura:attribute name="imageSrc" type="String" />
-    <aura:attribute name="serialNumber" type="String" />
     <aura:attribute name="objectFields" type="String[]" />
     
     <lightning:card iconName="{!v.headingIcon}" title="{!v.headingText}">
@@ -27,9 +23,9 @@
                 <ul>
                     <li class="slds-form-element slds-hint-parent slds-border_bottom">
                         <div class="slds-form-element">
-                            <label class="slds-form-element__label" for="text-input-id-1">{!v.deviceId}</label>
+                            <label class="slds-form-element__label" for="{!globalId + v.deviceId}">{!v.deviceId}</label>
                             <div class="slds-form-element">
-                                <input readonly="true" value="{!v.serialNumber}"/>
+                                <input type="text" id="{!globalId + v.deviceId}" class="slds-input" value="{!v.serialNumber}"/>
                             </div>
                         </div>
                     </li>       
