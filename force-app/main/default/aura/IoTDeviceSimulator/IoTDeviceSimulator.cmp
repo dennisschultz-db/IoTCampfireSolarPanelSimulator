@@ -1,40 +1,37 @@
 <aura:component implements="flexipage:availableForAllPageTypes" access="global" controller="IoTDeviceSimulatorController">
     
+    <!-- Public attributes -->
     <aura:attribute name="deviceId" type="String" default="serial_no__c"/>
     <aura:attribute name="eventName" type="String" />
     <aura:attribute name="imageName" type="String" />
     <aura:attribute name="headingText" type="String" />
     <aura:attribute name="headingIcon" type="String" />
     
-    <ltng:require scripts="{!$Resource.cometdjs}" afterScriptsLoaded="{!c.onCometdLoaded}" />
-    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <!-- Private attributes -->
+    <aura:attribute name="imageSrc" type="String" />
+    <aura:attribute name="objectFields" type="FieldDefinition[]" />
     
+    <!-- Event Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <!-- Cometd -->
+    <ltng:require scripts="{!$Resource.cometdjs}" afterScriptsLoaded="{!c.onCometdLoaded}" />
     <aura:attribute name="sessionId" type="String" />
     <aura:attribute name="cometd" type="Object" />
     <aura:attribute name="cometdSubscriptions" type="Object[]" />
-    
-    <aura:attribute name="imageSrc" type="String" />
-    <aura:attribute name="objectFields" type="String[]" />
-    
+
+    <!-- UI -->
     <lightning:card iconName="{!v.headingIcon}" title="{!v.headingText}">
         <div class="slds-grid slds-wrap">
             
-            <div class="slds-form slds-form_stacked slds-size_1-of-4 slds-p-around_medium">
+            <div class="slds-form slds-form_stacked slds-size_1-of-3 slds-p-around_medium">
                 <ul>
-                    <li class="slds-form-element slds-hint-parent slds-border_bottom">
-                        <div class="slds-form-element">
-                            <label class="slds-form-element__label" for="{!globalId + v.deviceId}">{!v.deviceId}</label>
-                            <div class="slds-form-element">
-                                <input type="text" id="{!globalId + v.deviceId}" class="slds-input" value="{!v.serialNumber}"/>
-                            </div>
-                        </div>
-                    </li>       
                     <aura:iteration var="item" items="{!v.objectFields}" indexVar="indx">
                         <li class="slds-form-element slds-hint-parent slds-border_bottom">
                             <div class="slds-form-element">
-                                <label class="slds-form-element__label" for="{!globalId + item}">{!item}</label>
+                                <label class="slds-form-element__label" for="{!globalId + item.QualifiedApiName}">{!item.QualifiedApiName}<br /><span>{!item.DataType}</span></label>
                                 <div class="slds-form-element__control">
-                                    <input type="text" id="{!globalId + item}" class="slds-input" />
+                                    <input type="text" id="{!globalId + item.QualifiedApiName}" class="slds-input" />
                                 </div>
                             </div>
                         </li>       
@@ -46,7 +43,7 @@
                 </div>
             </div>
             
-            <img id="app" class="slds-size_3-of-4" src="{!v.imageSrc}">
+            <img id="app" class="slds-size_2-of-3" src="{!v.imageSrc}">
             </img>
             
             <lightning:spinner variant="brand" size="large" aura:id="eventSpinner" class="slds-hide"/>

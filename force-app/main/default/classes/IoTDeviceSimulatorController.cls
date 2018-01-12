@@ -6,25 +6,23 @@ public class IoTDeviceSimulatorController {
     }
     
     @AuraEnabled
-    public static List<String> getEventFields(String eventName) {
+    public static List<FieldDefinition> getEventFields(String eventName) {
         System.debug('Event name ' + eventName);
-        eventName = eventName.left(eventName.length()-3);
-     
         
-        List<FieldDefinition> fieldList = [Select DeveloperName, DataType, FieldDefinition.Publisher.isSalesforce From FieldDefinition where EntityDefinition.DeveloperName=: eventName ];
+        // Retrieve using QualifiedApiName since eventName will have the '__e' suffix.
+        List<FieldDefinition> fieldList = [Select QualifiedApiName, DeveloperName, DataType, FieldDefinition.Publisher.isSalesforce From FieldDefinition where EntityDefinition.QualifiedApiName=: eventName ];
         System.debug(fieldList);
         
-        List<String> fieldNames = new List<String>();
+        List<FieldDefinition> eventFieldDefinitions = new List<FieldDefinition>();
         for(FieldDefinition item: fieldList) {
-            String name = item.DeveloperName ;
-            Boolean isSalesforce =  item.Publisher.IsSalesforce;
             
-            if(!isSalesforce && !item.DataType.contains('Lookup')) {
-                fieldNames.add(name);
+            // Only include custom, non-lookup fields
+            if(!item.Publisher.IsSalesforce && !item.DataType.contains('Lookup')) {
+                eventFieldDefinitions.add(item);
             }
         }
         
-        return fieldNames;
+        return eventFieldDefinitions;
     }
 
 

@@ -28,6 +28,21 @@
             </componentInstanceProperties>
             <componentName>IoTDeviceSimulator</componentName>
         </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>eventName</name>
+                <value>Tracker_Event__e</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>headingIcon</name>
+                <value>custom:custom3</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>headingText</name>
+                <value>Tracker_Event__e monitor</value>
+            </componentInstanceProperties>
+            <componentName>IoTEventMonitor</componentName>
+        </componentInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -54,6 +69,21 @@
                 <value>InverterBackground</value>
             </componentInstanceProperties>
             <componentName>IoTDeviceSimulator</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>eventName</name>
+                <value>Inverter_Event__e</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>headingIcon</name>
+                <value>custom:custom9</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>headingText</name>
+                <value>Inverter_Event__e Monitor</value>
+            </componentInstanceProperties>
+            <componentName>IoTEventMonitor</componentName>
         </componentInstances>
         <name>region3</name>
         <type>Region</type>

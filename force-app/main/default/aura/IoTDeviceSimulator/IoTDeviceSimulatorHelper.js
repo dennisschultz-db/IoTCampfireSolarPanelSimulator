@@ -71,17 +71,20 @@
             if (a.getState() === "SUCCESS") {
                 console.log("Loaded Event Object Fields");
                 //console.log(a.getReturnValue());
-                var fieldsNames = a.getReturnValue();
+                var fieldDefinitions = a.getReturnValue();
+                console.log('fieldDefinitions are ' + JSON.stringify(fieldDefinitions));
 
-                // Remove the deviceKey from the list of fields returned
+                // Reorder to put the deviceKey first
                 var deviceKey = component.get("v.deviceId");
-                var index = fieldsNames.indexOf(deviceKey.substring(0, deviceKey.length - 3));
-                //console.log(index);
-                if (index > -1) {
-                    fieldsNames.splice(index, 1);
+                var localFieldDefinitions = [];
+                for (var i = 0; i < fieldDefinitions.length; i++) {
+                    if (fieldDefinitions[i].QualifiedApiName == deviceKey) {
+                        localFieldDefinitions.unshift(fieldDefinitions[i]);
+                    } else {
+                        localFieldDefinitions.push(fieldDefinitions[i]);
+                    }
                 }
-
-                component.set("v.objectFields", fieldsNames);
+                component.set("v.objectFields", localFieldDefinitions);
 
             } else if (a.getState() === "ERROR") {
                 console.log("Loading Event Object Fields Failed! ");
@@ -107,36 +110,46 @@
 
         var globalId = component.getGlobalId();
         var eventName = component.get("v.eventName");
-        var deviceId = component.get("v.deviceId");  
+        var deviceId = component.get("v.deviceId");
         var deviceIdValue = document.getElementById(globalId + deviceId).value;
         var objectFields = component.get("v.objectFields");
-        var itemId = null;
+        var fieldValue = null;
 
+        // The deviceId is required.
         console.log("sendEvent serial number = " + deviceIdValue);
         if (deviceIdValue == "") {
-            helper.showToast("error", "Missing data", "Please select a serial number");
+            $A.util.toggleClass(spinner, "slds-show");
+            helper.showToast("error", "Missing data", "Please enter " + deviceId);
             return;
         }
 
         /***** Generate Platform Event ********/
         // GlobalId is required to differentiate between similarly named fields on multiple
         // simulators on the same App Page
-      	var eventMsg = "{\"sobjectType\":\"" + eventName + "\",\"" + deviceId + "\":\"" + deviceIdValue  + "\"";	 
-          for(var i=0; i< objectFields.length; i++) {
-               itemId = document.getElementById(globalId + objectFields[i]);
-               eventMsg = eventMsg +  ",\"" + objectFields[i] + "__c\": \"" + itemId.value + "\"";  
-          }
-           eventMsg = eventMsg + "}";
-  
+        var eventMsg = "{\"sobjectType\":\"" + eventName + "\",\"" + deviceId + "\":\"" + deviceIdValue + "\"";
+        for (var i = 0; i < objectFields.length; i++) {
+            fieldValue = document.getElementById(globalId + objectFields[i].QualifiedApiName).value;
+            // Ignore fields that no value was entered into
+            if (fieldValue) {
+                if (objectFields[i].DataType.startsWith('Number') && isNaN(fieldValue)) {
+                    $A.util.toggleClass(spinner, "slds-show");
+                    helper.showToast("error", "Incorrect data type", objectFields[i].QualifiedApiName + " is a Number field, but '" + fieldValue + "' is not a number");
+                    return;
+                }
+                eventMsg = eventMsg + ",\"" + objectFields[i].QualifiedApiName + "\": \"" + fieldValue + "\"";
+            }
+        }
+        eventMsg = eventMsg + "}";
+
         console.log("Sending Event to IOT cloud");
         console.log(eventMsg);
-      
+
         var action = component.get("c.publishEvent");
         action.setParams({
-            eventValue : eventMsg
+            eventValue: eventMsg
         });
 
-        action.setCallback(this, function(response) {
+        action.setCallback(this, function (response) {
             if (response.getState() === "SUCCESS") {
                 $A.util.toggleClass(spinner, "slds-show");
                 console.log("Sending IOT Event Success! ");
@@ -144,20 +157,21 @@
                     "success",
                     "Event published",
                     "Tracker Event " + response.getReturnValue());
-           
+
             } else if (response.getState() === "ERROR") {
                 console.log("Sending IOT Event Failed! ");
-                console.log( response.getError());
+                console.log(response.getError());
                 //$A.log("Errors", a.getError());
+                $A.util.toggleClass(spinner, "slds-show");
                 helper.showToast(
-                    "error", 
-                    "Unable to send event", 
-                    "Sending IOT Event Failed! " + response.getError());
+                    "error",
+                    "Unable to send event",
+                    "Sending IOT Event Failed! " + JSON.stringify(response.getError()));
             }
         });
 
-       $A.enqueueAction(action);
-    
+        $A.enqueueAction(action);
+
     },
 
 
