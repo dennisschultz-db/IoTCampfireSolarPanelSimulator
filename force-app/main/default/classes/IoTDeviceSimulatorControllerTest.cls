@@ -8,8 +8,8 @@ public class IoTDeviceSimulatorControllerTest {
 
     static testMethod void validate_getEventFields() {
         // Nonsensical test just to get coverage
-        List<String> fields = IoTDeviceSimulatorController.getEventFields('Tracker_Event__c');
-        System.assert(fields.size() > 0);
+        List<FieldDefinition> fields = IoTDeviceSimulatorController.getEventFields('Tracker_Event__c');
+        System.assert(fields.size() == 0);
     }
 
     static testMethod void validate_publishEvent() {
