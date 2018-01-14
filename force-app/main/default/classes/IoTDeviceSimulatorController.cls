@@ -1,11 +1,6 @@
 public class IoTDeviceSimulatorController {
 
     @AuraEnabled
-    public static String getSessionId() {
-        return UserInfo.getSessionId();
-    }
-    
-    @AuraEnabled
     public static List<FieldDefinition> getEventFields(String eventName) {
         System.debug('Event name ' + eventName);
         

@@ -14,12 +14,6 @@
     <!-- Event Handlers -->
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 
-    <!-- Cometd -->
-    <ltng:require scripts="{!$Resource.cometdjs}" afterScriptsLoaded="{!c.onCometdLoaded}" />
-    <aura:attribute name="sessionId" type="String" />
-    <aura:attribute name="cometd" type="Object" />
-    <aura:attribute name="cometdSubscriptions" type="Object[]" />
-
     <!-- UI -->
     <lightning:card iconName="{!v.headingIcon}" title="{!v.headingText}">
         <div class="slds-grid slds-wrap">

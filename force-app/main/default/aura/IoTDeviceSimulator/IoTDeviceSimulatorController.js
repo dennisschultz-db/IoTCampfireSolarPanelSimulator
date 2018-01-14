@@ -2,12 +2,6 @@
     doInit: function (component, event, helper) {
         console.log('IoTDeviceSimulator:Controller: doInit');
 
-        // Configure Cometd
-        component.set('v.cometdSubscriptions', []);
-        component.set('v.notifications', []);
-        helper.addCometdDisconnectListener(component);
-        helper.retrieveSessionId(component);
-
         // Derive the URL for the static resource image
         var imageName = component.get("v.imageName");
         component.set("v.imageSrc", $A.get('$Resource.' + imageName));
@@ -21,15 +15,6 @@
         }
 
         helper.getEventFields(component, event, helper);
-    },
-
-
-    onCometdLoaded: function (component, event, helper) {
-        console.log('onCometdLoaded');
-        var cometd = new org.cometd.CometD();
-        component.set('v.cometd', cometd);
-        if (component.get('v.sessionId') != null)
-            helper.connectCometd(component);
     },
 
 
