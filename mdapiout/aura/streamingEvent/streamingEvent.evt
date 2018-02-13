@@ -1,5 +1,0 @@
-<aura:event type="COMPONENT">
-    <!-- Component courtesy Andrew Fawcett: https://github.com/afawcett/streamingcomponent -->
-    
-    <aura:attribute name="payload" type="Object"/>
-</aura:event>
