@@ -1,0 +1,1052 @@
+[
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1518546302584,
+            "changeTime": 1518546302584,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1518546302585,
+            "changeTime": 1518546302585,
+            "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default",
+            "isDirectory": true,
+            "size": 352,
+            "modifiedTime": 1518546302605,
+            "changeTime": 1518546302605,
+            "contentHash": "19e2f224c8dd47b467d1e85e6efc947a0a0fed9c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/applications",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/applications",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1518546302585,
+            "changeTime": 1518546302585,
+            "contentHash": "1c5accf08b6e7bb7cefc5ded786f524960d00864",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/applications/Cirrus_Solar.app-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/applications/Cirrus_Solar.app-meta.xml",
+            "isDirectory": false,
+            "size": 521,
+            "modifiedTime": 1518546302585,
+            "changeTime": 1518546302585,
+            "contentHash": "47641f2dddab6acc1fa243d3abbc28738d6b8838",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1518546302590,
+            "changeTime": 1518546302590,
+            "contentHash": "d5495d5eea2118d33b64cbfcaae11956b249e06c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator",
+            "isDirectory": true,
+            "size": 288,
+            "modifiedTime": 1518546302587,
+            "changeTime": 1518546302587,
+            "contentHash": "9721a4f6f573ae64fc5a00ea28ba0b7fe5a2b15b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulator.cmp",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulator.cmp",
+            "isDirectory": false,
+            "size": 2375,
+            "modifiedTime": 1518546302586,
+            "changeTime": 1518546302586,
+            "contentHash": "d8ebaaa3850f38b8ba641afb3af01c1955a0fab4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulator.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulator.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 230,
+            "modifiedTime": 1518546302586,
+            "changeTime": 1518546302586,
+            "contentHash": "9fb0e256e4270739a3ab513afa449a23112ad4ba",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulator.css",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulator.css",
+            "isDirectory": false,
+            "size": 136,
+            "modifiedTime": 1518546302586,
+            "changeTime": 1518546302586,
+            "contentHash": "5d30f6edb52429b61cddad645583aa7e7a37f4d2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulator.design",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulator.design",
+            "isDirectory": false,
+            "size": 864,
+            "modifiedTime": 1518546302587,
+            "changeTime": 1518546302587,
+            "contentHash": "90103d02481eea523aa891fc53c4ef9f192d1639",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulatorController.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulatorController.js",
+            "isDirectory": false,
+            "size": 867,
+            "modifiedTime": 1518546302587,
+            "changeTime": 1518546302587,
+            "contentHash": "1d1d789f0292578f36f587796b356ea70da5530d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulatorHelper.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulatorHelper.js",
+            "isDirectory": false,
+            "size": 4963,
+            "modifiedTime": 1518546302587,
+            "changeTime": 1518546302587,
+            "contentHash": "1c5f3d2a4123413a7dac298deaea43fe41f3064b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulatorRenderer.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTDeviceSimulator/IoTDeviceSimulatorRenderer.js",
+            "isDirectory": false,
+            "size": 49,
+            "modifiedTime": 1518546302588,
+            "changeTime": 1518546302588,
+            "contentHash": "5c9d3500f47ee794776fbf674e09fad5e0855732",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor",
+            "isDirectory": true,
+            "size": 288,
+            "modifiedTime": 1518546302589,
+            "changeTime": 1518546302589,
+            "contentHash": "463b3b5b9672d5ed05d0ef1106a09be606915bae",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitor.cmp",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitor.cmp",
+            "isDirectory": false,
+            "size": 1047,
+            "modifiedTime": 1518546302588,
+            "changeTime": 1518546302588,
+            "contentHash": "3604fe90f40cda9170557107e27bac60cd9c9db1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitor.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitor.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1518546302588,
+            "changeTime": 1518546302588,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitor.css",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitor.css",
+            "isDirectory": false,
+            "size": 49,
+            "modifiedTime": 1518546302588,
+            "changeTime": 1518546302588,
+            "contentHash": "1a7f5251da618f31a5d4173ea5f2dc7361530a14",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitor.design",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitor.design",
+            "isDirectory": false,
+            "size": 569,
+            "modifiedTime": 1518546302589,
+            "changeTime": 1518546302589,
+            "contentHash": "595b40312fd5019218347ad4e4cbbe0517b8fa94",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitorController.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitorController.js",
+            "isDirectory": false,
+            "size": 448,
+            "modifiedTime": 1518546302589,
+            "changeTime": 1518546302589,
+            "contentHash": "034714556fbfaf97558f055a19264bef70360783",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitorHelper.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitorHelper.js",
+            "isDirectory": false,
+            "size": 7,
+            "modifiedTime": 1518546302589,
+            "changeTime": 1518546302589,
+            "contentHash": "162a83fee286b46bb196859ee06236fa07be8c7f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitorRenderer.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/IoTEventMonitor/IoTEventMonitorRenderer.js",
+            "isDirectory": false,
+            "size": 49,
+            "modifiedTime": 1518546302589,
+            "changeTime": 1518546302589,
+            "contentHash": "5c9d3500f47ee794776fbf674e09fad5e0855732",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streaming",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streaming",
+            "isDirectory": true,
+            "size": 224,
+            "modifiedTime": 1518546302590,
+            "changeTime": 1518546302590,
+            "contentHash": "063f2c760905f33625e6edd873a571ac70aeb65b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streaming/streaming.cmp",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streaming/streaming.cmp",
+            "isDirectory": false,
+            "size": 705,
+            "modifiedTime": 1518546302589,
+            "changeTime": 1518546302589,
+            "contentHash": "05139f3040256a24a3c8ca8385c8ea13a54f55fd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streaming/streaming.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streaming/streaming.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 211,
+            "modifiedTime": 1518546302589,
+            "changeTime": 1518546302589,
+            "contentHash": "921542d360856699a08d788b63a3a1ea04876d93",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streaming/streaming.css",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streaming/streaming.css",
+            "isDirectory": false,
+            "size": 33,
+            "modifiedTime": 1518546302590,
+            "changeTime": 1518546302590,
+            "contentHash": "73be5ee461b3eaa40bc2d3a165263f6ada4b4577",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streaming/streamingController.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streaming/streamingController.js",
+            "isDirectory": false,
+            "size": 2670,
+            "modifiedTime": 1518546302590,
+            "changeTime": 1518546302590,
+            "contentHash": "11ec9705159bdaa4795c262072027574ac2a5004",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streaming/streamingHelper.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streaming/streamingHelper.js",
+            "isDirectory": false,
+            "size": 5,
+            "modifiedTime": 1518546302590,
+            "changeTime": 1518546302590,
+            "contentHash": "82be1d8a61502a7584b9255940873d4327e226f6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streamingEvent",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streamingEvent",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1518546302591,
+            "changeTime": 1518546302591,
+            "contentHash": "82c2b4e5f39c8d266f1d2f0f063bea8c15778b97",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streamingEvent/streamingEvent.evt",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streamingEvent/streamingEvent.evt",
+            "isDirectory": false,
+            "size": 194,
+            "modifiedTime": 1518546302591,
+            "changeTime": 1518546302591,
+            "contentHash": "a86b688e123f85faef5d6f2c12c22ebc6abde0eb",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streamingEvent/streamingEvent.evt-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/aura/streamingEvent/streamingEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 211,
+            "modifiedTime": 1518546302591,
+            "changeTime": 1518546302591,
+            "contentHash": "921542d360856699a08d788b63a3a1ea04876d93",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 320,
+            "modifiedTime": 1518546302593,
+            "changeTime": 1518546302593,
+            "contentHash": "041b344ac7e984a6135a4485f569e4ca9e5872b7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/IoTDeviceSimulatorController.cls",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/IoTDeviceSimulatorController.cls",
+            "isDirectory": false,
+            "size": 1785,
+            "modifiedTime": 1518546302591,
+            "changeTime": 1518546302591,
+            "contentHash": "f8938208e1996aacc4437fa534cfac6d80b0a79d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/IoTDeviceSimulatorController.cls-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/IoTDeviceSimulatorController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1518546302592,
+            "changeTime": 1518546302592,
+            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/IoTDeviceSimulatorControllerTest.cls",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/IoTDeviceSimulatorControllerTest.cls",
+            "isDirectory": false,
+            "size": 629,
+            "modifiedTime": 1518546302592,
+            "changeTime": 1518546302592,
+            "contentHash": "74a369bdecf5152cc82173552765e78346e01a7c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/IoTDeviceSimulatorControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/IoTDeviceSimulatorControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1518546302592,
+            "changeTime": 1518546302592,
+            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/SessionController.cls",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/SessionController.cls",
+            "isDirectory": false,
+            "size": 145,
+            "modifiedTime": 1518546302593,
+            "changeTime": 1518546302593,
+            "contentHash": "c4198c8cabe839223d921cd73b978bf09f986d30",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/SessionController.cls-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/SessionController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1518546302593,
+            "changeTime": 1518546302593,
+            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/SessionControllerTest.cls",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/SessionControllerTest.cls",
+            "isDirectory": false,
+            "size": 222,
+            "modifiedTime": 1518546302593,
+            "changeTime": 1518546302593,
+            "contentHash": "590bfba125180fe4b64d5f6ff7669e2da3a844af",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/SessionControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/classes/SessionControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 199,
+            "modifiedTime": 1518546302593,
+            "changeTime": 1518546302593,
+            "contentHash": "572b10f91e0fd0bece0836a2aab2a0329bb88016",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/flexipages",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/flexipages",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1518546302594,
+            "changeTime": 1518546302594,
+            "contentHash": "9fd3947d522f5afbed0f543d81cd69c7da6a70af",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/flexipages/Cirrus_Solar_Device_Simulators.flexipage-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/flexipages/Cirrus_Solar_Device_Simulators.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 3875,
+            "modifiedTime": 1518546302593,
+            "changeTime": 1518546302593,
+            "contentHash": "690229ef1f48885602ab5549d725b6e5a33e01d1",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/flexipages/Cirrus_Solar_UtilityBar.flexipage-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/flexipages/Cirrus_Solar_UtilityBar.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 386,
+            "modifiedTime": 1518546302594,
+            "changeTime": 1518546302594,
+            "contentHash": "a79f768ebf5eaea3e4a75f75a6e372cf0d53b18f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/layouts",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/layouts",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1518546302595,
+            "changeTime": 1518546302595,
+            "contentHash": "bd90bebe600a4ac9ced0b3927f0e51704d8712cf",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9925,
+            "modifiedTime": 1518546302594,
+            "changeTime": 1518546302594,
+            "contentHash": "1034b8a3b1ac3ffe5432b5efd83acd8036d6dda9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/layouts/Asset-Asset Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/layouts/Asset-Asset Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 5817,
+            "modifiedTime": 1518546302595,
+            "changeTime": 1518546302595,
+            "contentHash": "3a5e7139f7961a80f9c8a4d8e989cb1026111050",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/layouts/Contact-Contact Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/layouts/Contact-Contact Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9925,
+            "modifiedTime": 1518546302595,
+            "changeTime": 1518546302595,
+            "contentHash": "4461641d521d67bbcc9dfb652167dd2aca083791",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/objects",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/objects",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1518546302595,
+            "changeTime": 1518546302595,
+            "contentHash": "4426afd90a77a35fb37ebd7110b9989cf7bed224",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/objects/Asset",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/objects/Asset",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1518546302595,
+            "changeTime": 1518546302595,
+            "contentHash": "1003ed7ace0a22575202c755ad5f988148ca2df5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/objects/Asset/listViews",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/objects/Asset/listViews",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1518546302596,
+            "changeTime": 1518546302596,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/objects/Asset/listViews/All.listView-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/objects/Asset/listViews/All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 385,
+            "modifiedTime": 1518546302596,
+            "changeTime": 1518546302596,
+            "contentHash": "6f35ee704be96e51b1a1b40149213e335ccce07d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/permissionsets",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/permissionsets",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1518546302596,
+            "changeTime": 1518546302596,
+            "contentHash": "230c36769dbab5890e48a8d2cc0c5fc4b3bacc02",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/permissionsets/IoT_Simulator.permissionset-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/permissionsets/IoT_Simulator.permissionset-meta.xml",
+            "isDirectory": false,
+            "size": 7694,
+            "modifiedTime": 1518546302596,
+            "changeTime": 1518546302596,
+            "contentHash": "9586a26139560ac2e71df76de04c727dc6ab5a71",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources",
+            "isDirectory": true,
+            "size": 256,
+            "modifiedTime": 1518546302598,
+            "changeTime": 1518546302598,
+            "contentHash": "dce3fcbc29ef480596dc26aa3916d1b3106af6ee",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/InverterBackground.png",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/InverterBackground.png",
+            "isDirectory": false,
+            "size": 58291,
+            "modifiedTime": 1518546302597,
+            "changeTime": 1518546302597,
+            "contentHash": "290ce3e5e6ac6d5df2dbd3b5d84fd2ad3f781565",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/InverterBackground.resource-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/InverterBackground.resource-meta.xml",
+            "isDirectory": false,
+            "size": 203,
+            "modifiedTime": 1518546302597,
+            "changeTime": 1518546302597,
+            "contentHash": "8f4e4ea531152330068e2049b8a042b6aa3381ea",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/SolarPanelBackground.jpeg",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/SolarPanelBackground.jpeg",
+            "isDirectory": false,
+            "size": 90874,
+            "modifiedTime": 1518546302598,
+            "changeTime": 1518546302598,
+            "contentHash": "d59eb8fd3c1c5c10d3aa081fa2049e32e9e692d8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/SolarPanelBackground.resource-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/SolarPanelBackground.resource-meta.xml",
+            "isDirectory": false,
+            "size": 204,
+            "modifiedTime": 1518546302598,
+            "changeTime": 1518546302598,
+            "contentHash": "b473771fda938d35453ce0c0378c39db44431006",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd",
+            "isDirectory": true,
+            "size": 288,
+            "modifiedTime": 1518546302605,
+            "changeTime": 1518546302605,
+            "contentHash": "43b9501f9df3e90e32c90f6c0dfb521cb8b88736",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/AckExtension.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/AckExtension.js",
+            "isDirectory": false,
+            "size": 4777,
+            "modifiedTime": 1518546302598,
+            "changeTime": 1518546302598,
+            "contentHash": "3f7ad53f25328d47deaa07b2419211125166f655",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/BinaryExtension.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/BinaryExtension.js",
+            "isDirectory": false,
+            "size": 2163,
+            "modifiedTime": 1518546302599,
+            "changeTime": 1518546302599,
+            "contentHash": "d355f87a97e311bef9b28ff319e41d368aae8146",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/ReloadExtension.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/ReloadExtension.js",
+            "isDirectory": false,
+            "size": 9887,
+            "modifiedTime": 1518546302599,
+            "changeTime": 1518546302599,
+            "contentHash": "01e4da90186dde320aac4db7d1857fbee79abb12",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/TimeStampExtension.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/TimeStampExtension.js",
+            "isDirectory": false,
+            "size": 1233,
+            "modifiedTime": 1518546302599,
+            "changeTime": 1518546302599,
+            "contentHash": "09cc5d63aa9d381b0967bfc04542f2337dae94aa",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/TimeSyncExtension.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/TimeSyncExtension.js",
+            "isDirectory": false,
+            "size": 7322,
+            "modifiedTime": 1518546302599,
+            "changeTime": 1518546302599,
+            "contentHash": "16d44978c79e1160c6781709cd2652112bb4f345",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/__MACOSX",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/__MACOSX",
+            "isDirectory": true,
+            "size": 256,
+            "modifiedTime": 1518546302604,
+            "changeTime": 1518546302604,
+            "contentHash": "1a34aa27020577baaf63eb6cd53fb60437000733",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/cometd.js",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd/cometd.js",
+            "isDirectory": false,
+            "size": 125858,
+            "modifiedTime": 1518546302605,
+            "changeTime": 1518546302605,
+            "contentHash": "e913d4e230919f88e214cf8c0ebcba1f1a92f7f9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd.resource-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/staticresources/cometd.resource-meta.xml",
+            "isDirectory": false,
+            "size": 274,
+            "modifiedTime": 1518546302598,
+            "changeTime": 1518546302598,
+            "contentHash": "aa9662645509207c0b318cabdeb09dcb6f4a2e48",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/tabs",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/tabs",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1518546302605,
+            "changeTime": 1518546302605,
+            "contentHash": "4559f89f43267111ccffce6f2575352628730379",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/tabs/Cirrus_Solar_Device_Simulators.tab-meta.xml",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator/force-app/main/default/tabs/Cirrus_Solar_Device_Simulators.tab-meta.xml",
+            "isDirectory": false,
+            "size": 355,
+            "modifiedTime": 1518546302606,
+            "changeTime": 1518546302606,
+            "contentHash": "f1658cc9b9a5a7267445da75b988e462a4a3e912",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator",
+        {
+            "sourcePath": "/Users/dscruggs/SFProjects/IOT/IoTCampfireSolarPanelSimulator",
+            "isDirectory": true,
+            "size": 384,
+            "modifiedTime": 1518546302623,
+            "changeTime": 1518546302623,
+            "contentHash": "5fac4902da663030e6425cf7750100fc97d9b1e4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
